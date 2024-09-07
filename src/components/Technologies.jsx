@@ -1,6 +1,6 @@
 import { DiRedis } from "react-icons/di"
-import { FaNodeJs } from "react-icons/fa"
-import { FaJava, FaSquareGithub } from "react-icons/fa6"
+import { FaNodeJs,FaGithub } from "react-icons/fa"
+import { FaJava } from "react-icons/fa6"
 import { RiReactjsLine } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import {  motion } from "framer-motion"
@@ -39,7 +39,7 @@ const Technologies = () => {
                     <FaNodeJs className="text-7xl text-green-500" />
                 </motion.div>
                 <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaSquareGithub className="text-7xl text-black-450" />
+                    <FaGithub className="text-7xl text-black-450" />
                 </motion.div>
             </motion.div>
         </div>

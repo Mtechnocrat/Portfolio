@@ -29,13 +29,6 @@ export const EDUCATION = [
     Percentage: `Percentage : 87%`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
 ];
 
 export const PROJECTS = [
@@ -45,6 +38,7 @@ export const PROJECTS = [
     description:
       " Tomato is a dynamic food delivery platform developed with the MERN stack and Stripe for secure payments.",
     technologies: ["React", "Express.Js", "Stripe", "Node.js", "MongoDB"],
+    link:"https://food-delivery-app-frontend-etrp.onrender.com/",
   },
   {
     title: "Expense Tracker",
@@ -52,6 +46,7 @@ export const PROJECTS = [
     description:
       "A simple expense tracking application built with the MERN (MongoDB, Express, React, Node.js) stack, helping users manage their daily expenses and stay on top of their finances.",
     technologies: ["React", "CSS", "Express.js","Node.Js","MongoDB"],
+    link:"https://expense-tracker-frontend-ochre.vercel.app/",
   },
   {
     title: "Portfolio Website",
@@ -59,13 +54,15 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "CSS", "Tailwind"],
+    link:"#",
   },
   {
-    title: "Blogging Platform",
+    title: "BookVerse",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A responsive book website built with HTML and CSS, offering a clean, user-friendly interface. It adapts to different screen sizes, showcasing books by genre, featured collections, and reviews, ensuring an engaging experience on all devices.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link:"https://mtechnocrat.github.io/BooksVerse/",
   },
 ];
 
