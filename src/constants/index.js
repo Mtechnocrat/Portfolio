@@ -40,11 +40,11 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Food-Delivery App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      " Tomato is a dynamic food delivery platform developed with the MERN stack and Stripe for secure payments.",
+    technologies: ["React", "Express.Js", "Stripe", "Node.js", "MongoDB"],
   },
   {
     title: "Task Management App",
