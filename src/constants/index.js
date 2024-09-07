@@ -47,18 +47,18 @@ export const PROJECTS = [
     technologies: ["React", "Express.Js", "Stripe", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Expense Tracker",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A simple expense tracking application built with the MERN (MongoDB, Express, React, Node.js) stack, helping users manage their daily expenses and stay on top of their finances.",
+    technologies: ["React", "CSS", "Express.js","Node.Js","MongoDB"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "CSS", "Tailwind"],
   },
   {
     title: "Blogging Platform",
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "New Delhi, India",
+  phoneNo: "",
+  email: "mr.genixx@gmail.com",
 };
