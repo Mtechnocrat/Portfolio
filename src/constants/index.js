@@ -7,35 +7,35 @@ export const HERO_CONTENT = `I am an enthusiastic full stack developer with a st
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Through academic projects and internships, I have gained experience with a variety of technologies, including React, Next.js, Node.js, MySQL, Git, and GitHub. My journey in web development began with a curiosity for how things work, and it has grown into a desire to continuously learn and adapt to new challenges. I thrive in collaborative environments and enjoy exploring new technologies and contributing to open-source projects.`;
 
-export const EXPERIENCES = [
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "2021 - 2025",
+    course: "Bachelor of Engineering in Computer Science",
+    school: "Chitkara University",
+    Percentage: `CGPA-8.77`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    year: "2020 - 2021",
+    course: "Senior Secondary Education",
+    school: "Sam International School",
+    Percentage: `Percentage : 85%`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    year: "2018 - 2019",
+    course: "Secondary Education",
+    school: "Sam International School",
+    Percentage: `Percentage : 87%`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
