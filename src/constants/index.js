@@ -49,11 +49,11 @@ export const PROJECTS = [
     link:"https://expense-tracker-frontend-ochre.vercel.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "File Encryptor",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "CSS", "Tailwind"],
+      "File Encryptor is a Java-based application built with Maven that encrypts and decrypts .txt files, storing them securely in an SQL database. Users can log in via email with an OTP sent to their inbox, ensuring secure access to their account and encrypted files.",
+    technologies: ["Java", "Maven", "SQL"],
     link:"#",
   },
   {
