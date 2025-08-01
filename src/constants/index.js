@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import image from "../assets/projects/image.jpg"
 
 export const HERO_CONTENT = `I am an enthusiastic full stack developer with a strong foundation in building web applications. I have developed my skills in front-end technologies like React and Next.js, and back-end technologies such as Node.js, MySQL, Git, and GitHub through academic projects and internships. I am eager to apply my knowledge to create innovative solutions, enhance user experiences, and contribute to business growth as I embark on my professional journey.`;
 
@@ -12,7 +13,7 @@ export const EDUCATION = [
     year: "2021 - 2025",
     course: "Bachelor of Engineering in Computer Science",
     school: "Chitkara University",
-    Percentage: `CGPA-8.77`,
+    Percentage: `CGPA-8.90`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
@@ -34,7 +35,7 @@ export const EDUCATION = [
 export const PROJECTS = [
   {
     title: "Food-Delivery App",
-    image: project1,
+    image: image,
     description:
       " Tomato is a dynamic food delivery platform developed with the MERN stack and Stripe for secure payments.",
     technologies: ["React", "Express.Js", "Stripe", "Node.js", "MongoDB"],
