@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import image from "../assets/projects/image.jpg"
 
-export const HERO_CONTENT = `I am an enthusiastic full stack developer with a strong foundation in building web applications. I have developed my skills in front-end technologies like React and Next.js, and back-end technologies such as Node.js, MySQL, Git, and GitHub through academic projects and internships. I am eager to apply my knowledge to create innovative solutions, enhance user experiences, and contribute to business growth as I embark on my professional journey.`;
+export const HERO_CONTENT = `I am an enthusiastic full stack developer with a strong foundation in building web applications. I have developed my skills in front-end technologies like Html,Css,JavaScript,React and back-end technologies such as Node.js, ExpressJs and MongoDB, through academic projects. I am eager to apply my knowledge to create innovative solutions, enhance user experiences, and contribute to business growth as I embark on my professional journey.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Through academic projects and internships, I have gained experience with a variety of technologies, including React, Next.js, Node.js, MySQL, Git, and GitHub. My journey in web development began with a curiosity for how things work, and it has grown into a desire to continuously learn and adapt to new challenges. I thrive in collaborative environments and enjoy exploring new technologies and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Through academic projects, I have gained experience with a variety of technologies, including React, Node.js, MySQL, Git, and GitHub. My journey in web development began with a curiosity for how things work, and it has grown into a desire to continuously learn and adapt to new challenges. I thrive in collaborative environments and enjoy exploring new technologies.`;
 
 export const EDUCATION = [
   {
@@ -50,19 +50,19 @@ export const PROJECTS = [
     link:"https://expense-tracker-frontend-ochre.vercel.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "File Encryptor",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "CSS", "Tailwind"],
-    link:"#",
+      "File Encryptor is a Java-based application built with Maven that encrypts and decrypts .txt files, storing them securely in an SQL database. Users can log in via email with an OTP sent to their inbox, ensuring secure access to their account and encrypted files.",
+    technologies: ["Java", "Maven", "SQL"],
+    link:"https://github.com/Mtechnocrat/File-Encryptor",
   },
   {
     title: "BookVerse",
     image: project4,
     description:
       "A responsive book website built with HTML and CSS, offering a clean, user-friendly interface. It adapts to different screen sizes, showcasing books by genre, featured collections, and reviews, ensuring an engaging experience on all devices.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS"],
     link:"https://mtechnocrat.github.io/BooksVerse/",
   },
 ];
