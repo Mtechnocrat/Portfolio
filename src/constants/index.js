@@ -58,12 +58,12 @@ export const PROJECTS = [
     link:"https://github.com/Mtechnocrat/File-Encryptor",
   },
   {
-    title: "BookVerse",
+    title: "OneBox",
     image: project4,
     description:
-      "A responsive book website built with HTML and CSS, offering a clean, user-friendly interface. It adapts to different screen sizes, showcasing books by genre, featured collections, and reviews, ensuring an engaging experience on all devices.",
-    technologies: ["HTML", "CSS"],
-    link:"https://mtechnocrat.github.io/BooksVerse/",
+      "This project is a real-time email processing system that: Syncs multiple IMAP accounts in real-time. Stores and indexes emails in Elasticsearch for fast searching. Uses AI to categorize emails into predefined labels.",
+    technologies: ["NodeJs", "ExpressJs","MongoDB","TensorFlow","Docker"],
+    link:"https://github.com/Mtechnocrat/OneBox",
   },
 ];
 
